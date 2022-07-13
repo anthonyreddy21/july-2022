@@ -79,8 +79,5 @@ int main()
     return 0;
 }
 
-// 3. using function pointers
-
-
 
 
