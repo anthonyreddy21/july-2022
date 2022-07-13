@@ -35,6 +35,8 @@ int main()
 
     for(i=0;i<=j;i++)
         printf("arr[i] = %d\t",arr[i]);
+	
+	printf("\n");
 
     return 0;
 }
