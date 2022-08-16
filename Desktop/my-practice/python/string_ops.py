@@ -2,7 +2,6 @@
 str = "anthony ashok"
 tup = ("anthony","ashok","Reddy")
 
-
 def fun(s):
     print("capitalize ",s.capitalize())       # to capitalize the 1st character
     print("casefold ",s.casefold())         # to make all charcters lower case
@@ -29,6 +28,9 @@ def fun(s):
     print("join using tuple "," ".join(tup))
     print("ljust ",s.ljust(14),"Reddy is my full name")
     print("lower ",s.lower())
+    print("lstrip ",s.lstrip())
+    
 
+    
     
 fun(str)
